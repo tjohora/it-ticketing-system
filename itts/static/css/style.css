@@ -1,0 +1,10 @@
+:root {
+    --bone-color: #cdc5b4;
+    --red-color: #984447;
+    --jet-color: #343434;
+}
+
+.bg-purple {
+    color: white;
+    background-color: var(--red-color);
+}
