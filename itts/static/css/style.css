@@ -4,7 +4,47 @@
     --jet-color: #343434;
 }
 
-.bg-purple {
+.bg-red {
     color: white;
     background-color: var(--red-color);
 }
+
+/* sidebar rules */
+
+/* Rule copied from https://getbootstrap.com/docs/4.6/examples/dashboard/ */ 
+.sidebar {
+    background-color: var(--red-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 85px 0 0;
+    box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--off-white);
+}
+
+.nav-item .active {
+    color: black;
+    background-color: var(--off-white);
+}
+
+.mobile-nav {
+    text-align: center;
+}
+
+.mobile-nav .nav-link {
+    border-bottom: 1px solid white;
+}
+
+.authOptions{
+    max-width: 400px;
+    justify-content: center;
+  }
