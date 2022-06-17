@@ -90,3 +90,12 @@ db.sqlite3
 
 venv
 env.py
+
+bootstrap.min.css
+
+bootstrap-multiselect.css
+bootstrap.min.css
+Datatables
+bootstrap-multiselect.js
+bootstrap.bundle.min.js
+jquery.min.js
